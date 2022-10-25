@@ -25,6 +25,20 @@ body{
     font-size: 35px;    
 }
 
+/*Generics*/
+.tag{    
+    color: white;
+    font-size: 10px;
+    border-radius: 25%;
+    padding: 4px;
+}    
+h3{
+    line-height: 280%;
+}
+p{
+    line-height: 220%;
+}
+
 /*main-contenitor-button*/
 .contenitor-button{
     width: 60%;
