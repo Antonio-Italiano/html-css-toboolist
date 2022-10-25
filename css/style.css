@@ -4,19 +4,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(201, 201, 201, 0.726);
 }
 
 /*Header*/
 .main-header {
     background-color: white;
+    margin: 0px 0px 20px 0px;
 }
-
-.intestazione,
-#logo {
-    display: inline;
-}
-
-.intestazione {
-    
+.logo {    
     vertical-align: middle;
+    padding: 5px;
+}
+.intestazione{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 35px;    
+}
+
+/*main-contenitor-button*/
+.contenitor-button{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px 25px;
+}
+
+.button-task {
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 10%;
+    color: white; 
+}
+.button-section {
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 10%;
+    color: rgb(124, 124, 124);
+    margin: 0 2px;   
 }
