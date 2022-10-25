@@ -68,3 +68,22 @@ body{
     font-size: 10px;
 }
 
+/*color-tag*/
+.tag-blu {
+    background-color: blue;
+}
+.tag-viola {
+    background-color: rgb(121, 30, 121);
+}
+.tag-verde {
+    background-color: rgb(46, 143, 94);
+}
+.tag-arancione {
+    background-color: orange;
+}
+.tag-fucsia {
+    background-color: fuchsia;
+}
+.tag-verdechiaro {
+    background-color: rgb(99, 252, 99);
+}
