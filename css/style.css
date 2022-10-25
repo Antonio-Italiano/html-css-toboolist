@@ -47,3 +47,11 @@ body{
     color: rgb(124, 124, 124);
     margin: 0 2px;   
 }
+
+/*main-contenitor-body*/
+.contenitor-body{
+    width: 60%;
+    margin: 1px auto;
+    background-color: white;
+    padding: 10px 25px 0px;
+}
