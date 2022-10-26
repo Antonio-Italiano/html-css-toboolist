@@ -7,97 +7,151 @@
     
 }
 body{
-    background-color: rgba(201, 201, 201, 0.726);
+    background-color: rgb(231, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Generics */
+
+h3{
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+
+}
+
+ 
 
 /*Header*/
 .main-header {
+    height: 70px;
     background-color: white;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 25px;
+    line-height: 70px;
+    padding-left: 20px;
+
 }
-.logo {    
+.logo {   
+    height: 50px;
     vertical-align: middle;
-    padding: 5px;
+    
 }
-.intestazione{
-    vertical-align: middle;
-    font-weight: bold;
-    font-size: 35px;    
+.intestazione{    
+    font-size: 38px;
+    font-weight: 900;
+    display: inline;
+    vertical-align: middle;    
 }
 
-/*Generics*/
-.tag{    
-    color: white;
-    font-size: 10px;
-    border-radius: 25%;
-    padding: 4px;
-}    
-h3{
-    line-height: 280%;
-}
-p{
-    line-height: 220%;
-}
 
-/*main-contenitor-button*/
+
+/* contenitor button */
 .contenitor-button{
+    border-radius: 5px 5px 0 0;
     width: 60%;
     margin: 0 auto;
     background-color: white;
     padding: 15px 25px;
 }
 
-.button-task {
-    background-color: blue;
-    padding: 5px 10px;
-    border-radius: 10%;
-    color: white; 
-}
-.button-section {
-    background-color: white;
-    padding: 5px 10px;
-    border: 1px solid rgb(124, 124, 124);
-    border-radius: 10%;
-    color: rgb(124, 124, 124);
-    margin: 0 2px;   
-}
 
-/*main-contenitor-body*/
+/* contenitor body*/
 .contenitor-body{
     width: 60%;
     margin: 1px auto;
     background-color: white;
     padding: 10px 25px 0px;
+    border-radius: 0 0 5px 5px;
 }
-.check{
-    border: 1px solid green;
-    border-radius: 50%;
+
+
+/* Button */
+.button{
+    border-radius: 10%;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+ 
+.button.btn-task {
+    background-color: blue;
+    color: white;
+    border-color: currentColor;
+
+}
+.button.btn-section {
+    background-color: white;    
+    color: rgb(124, 124, 124);
+    border-color: currentColor;
+       
+}
+                    
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.task-item {
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+ 
+
+.task-status{
+    width: 15px;
+    height: 15px;
+    border: 1px solid currentColor;
+    border-radius: 50%;    
+    font-size: 12px;
+    display: inline-block;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;    
+}
+.task-status.check {
     color: green;
-    font-size: 10px;
 }
-.cross{
-    border: 1px solid red;
-    border-radius: 50%;
+.task-status.cross {
     color: red;
-    font-size: 10px;
 }
+.task-text {
+    vertical-align: middle;
+
+}
+
+/*fino a qui ci siamo*/
+
+
+
+.tag{    
+    color: white;
+    font-size: 10px;
+    border-radius: 30%;
+    padding: 5px 10px;
+    line-height: 15px;
+    vertical-align: middle;
+}    
 
 /*color-tag*/
 .tag-blu {
-    background-color: blue;
+    background-color: #45abea;
 }
 .tag-viola {
-    background-color: rgb(121, 30, 121);
+    background-color: #9c72e4;
 }
 .tag-verde {
-    background-color: rgb(46, 143, 94);
+    background-color: #64cda9;
 }
 .tag-arancione {
-    background-color: orange;
+    background-color: #f29e33;
 }
 .tag-fucsia {
-    background-color: fuchsia;
+    background-color: #d863a1;
 }
 .tag-verdechiaro {
-    background-color: rgb(99, 252, 99);
+    background-color: #b0c926;
 }
+

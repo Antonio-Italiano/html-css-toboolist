@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Antonio Italiano">
+    <!---title-->
     <title>Toobolist</title>
+    <!--icon-->
     <link rel="icon" href="img/Logo.png" type="image/png">
+    <!--stylesheet-->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-
+            
 </head>
 <body>
 
     <!-- header iniziale-->
     <header class="main-header">
         
-        <img src="img/Logo.png" alt="Logo" class="logo">         
-        <span class="intestazione">Toboolist</span>      
+        <img src="img/logo.png" alt="Logo" class="logo">         
+        <h1 class="intestazione">Toboolist</h1>      
     </header>
 
     <!-- main button-->
     <main class="contenitor-button">
         
-        <span class="button-task">Add Task</span>
-        <span class="button-section">Add Section</span>        
+        <button class="button btn-task">Add Task</button>
+        <button class="button btn-section">Add Section</button>        
     </main>
 
     <!-- main body-->
@@ -31,26 +34,69 @@
         
         <!--section New Task-->
         <section>
-            <h3>&#9662; New Task</h3>
-            <p><span class="check">&check;</span> Quarterly Newsletter <span class="tag tag-blu">Editorial</span></p>
+            <ul>
+                <li>
+                    <h3>&#9662; New Task</h3>
+                </li>
+                <ul class="task-list">
+                    <li class="task-item">
+                        <span class="task-status check">&check;</span> 
+                        <span class="task-text">Quarterly Newsletter</span>  
+                        <span class="tag tag-blu">editorial</span> 
+                        
+                    </li>
+                </ul>                
+            </ul>
         </section>
 
         <!--section Today-->
         <section>
-            <h3>&#9662; Today</h3>
-            <p><span class="check">&check;</span> Recruiting blog post <span class="tag tag-blu">editorial</span> </p>
-            <p><span class="check">&check;</span> Mobile app launch <span class="tag tag-viola">Q1-goals</span></p>
-            <p><span class="cross">&cross;</span> Interview John H. <span class="tag tag-verde">Recruiting</span></p>
-            <p><span class="check">&check;</span> Summit update to mobile storefronts <span class="tag tag-arancione">mobile</span></p>
+            <ul>
+                <li>
+                    <h3>&#9662; Today</h3>
+                </li>
+                <ul class="task-list">
+                    <li class="task-item">
+                        <span class="task-status check">&check;</span>
+                        <span>Recruiting blog post</span>  
+                        <span class="tag tag-blu">editorial</span>
+                    </li>
+                    <li class="task-item">
+                        <span class="task-status check">&check;</span> 
+                        <span>Mobile app launch</span> 
+                        <span class="tag tag-viola">Q1-goals</span>
+                    </li>
+                    <li class="task-item">
+                        <span class="task-status cross">&cross;</span>
+                        <span>Interview John H.</span>
+                        <span class="tag tag-verde">Recruiting</span>
+                    </li>
+                    <li class="task-item">
+                        <span class="task-status check">&check;</span>
+                        <span>Summit update to mobile storefronts</span>
+                        <span class="tag tag-arancione">mobile</span>
+                    </li>
+                </ul>
+            </ul>
         </section>
 
         <!--section Upcoming-->
         <section>
-            <h3>&#9662; Upcoming</h3>
-            <p><span class="cross">&cross;</span> Schedule Meetimg with Alex <span class="tag tag-verde">Recruiting</span></p>
-            <p><span class="check">&check;</span> Homepage refresh <span class="tag tag-fucsia">Website</span></p>
-            <p><span class="cross">&cross;</span> Onboard new Sales team members <span class="tag tag-verdechiaro">Sales</span></p>
-            <p><span class="check">&check;</span> Review editorial character <span class="tag tag-arancione">Editorial</span></p>
+            <ul>
+                <li>
+                    <h3>&#9662; Upcoming</h3>
+                </li>
+                <ul class="task-list">
+                    <li class="task-item">
+                        <span class="task-status cross">&cross;</span> Schedule Meetimg with Alex <span class="tag tag-verde">Recruiting</span></li>
+                    <li class="task-item">
+                        <span class="task-status check">&check;</span> Homepage refresh <span class="tag tag-fucsia">Website</span></li>
+                    <li class="task-item">
+                        <span class="task-status cross">&cross;</span> Onboard new Sales team members <span class="tag tag-verdechiaro">Sales</span></li>
+                    <li class="task-item">
+                        <span class="task-status check">&check;</span> Review editorial character <span class="tag tag-arancione">Editorial</span></li>
+                </ul>
+            </ul>
         </section>   
                 
     </main>
